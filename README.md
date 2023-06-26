@@ -5,9 +5,9 @@ the topics. Users can also answer the available questions and their answers woul
 be stored to the database of the application.
 
 All of the services require authentication to use, except for the API and registration/login. 
-Unauthorised users can access `http://localhost:7777/api/questions/random` to retrieve a 
+Unauthorised users can access the path `/api/questions/random` to retrieve a 
 random question together with its options, and sending a POST request to 
-`http://localhost:7777/api/questions/answer` using a JSON file, which includes the
+path `/api/questions/answer` using a JSON file, which includes the
 attribute `optionId` - id of the option that they choose, would response whether 
 their chosen answer is correct or not.
 
