@@ -10,6 +10,3 @@ random question together with its options, and sending a POST request to
 path `/api/questions/answer` using a JSON file, which includes the
 attribute `optionId` - id of the option that they choose, would response whether 
 their chosen answer is correct or not.
-
-The application is deployed online on https://drill-and-practice-q0tn.onrender.com, so
-please have it a check there as well.
